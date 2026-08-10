@@ -75,7 +75,7 @@ export default function Speakers() {
     <>
       <PageHeader
         title="Keynote Speakers"
-        description="Distinguished experts sharing their insights at ICRACS 2027 — leading researchers and industry pioneers at the forefront of AI, Computer Vision & Smart Systems."
+        description="Distinguished experts sharing their insights at ICRACS 2026 — leading researchers and industry pioneers at the forefront of AI, Computer Vision & Smart Systems."
         bgImage="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop"
       />
 
@@ -124,7 +124,7 @@ export default function Speakers() {
         <div className="max-w-6xl mx-auto">
           <AnimatedHeading
             title="Speaker Information"
-            subtitle="Everything you need to know about keynote sessions at ICRACS 2027"
+            subtitle="Everything you need to know about keynote sessions at ICRACS 2026"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
