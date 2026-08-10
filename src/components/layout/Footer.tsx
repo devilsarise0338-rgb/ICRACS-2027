@@ -11,9 +11,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* About Section */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-white mb-6">ICRACS 2026</h3>
+            <h3 className="text-xl font-bold text-white mb-6">ICRACS 2027</h3>
             <p className="text-sm leading-relaxed text-slate-400">
-              3rd International Conference on Recent Advances in Artificial Intelligence, 
+              4th International Conference on Recent Advances in Artificial Intelligence, 
               Computer Vision & Smart Systems organized by Poornima Institute of 
               Engineering & Technology, Jaipur.
             </p>

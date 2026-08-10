@@ -9,7 +9,7 @@ export default function Publication() {
     <>
       <PageHeader 
         title="Publication" 
-        description="Information regarding conference proceedings and special issue journals for ICRACS 2026."
+        description="Information regarding conference proceedings and special issue journals for ICRACS 2027."
         bgImage="https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=2070&auto=format&fit=crop"
       />
 

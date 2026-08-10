@@ -7,7 +7,7 @@ export default function About() {
     <>
       <PageHeader 
         title="About the Conference" 
-        description="Learn more about the vision, mission, and scope of ICRACS 2026."
+        description="Learn more about the vision, mission, and scope of ICRACS 2027."
         bgImage="https://images.unsplash.com/photo-1524169358666-79f22534bc6e?q=80&w=2070&auto=format&fit=crop"
       />
 
@@ -17,7 +17,7 @@ export default function About() {
             <AnimatedHeading title="Vision & Mission" centered={false} />
             <div className="prose prose-slate max-w-none prose-lg">
               <p>
-                The 3rd International Conference on Recent Advances in Artificial Intelligence, Computer Vision & Smart Systems (ICRACS 2026) is a premier forum for presenting technological advances and research results in the fields of computational intelligence, machine vision, and interconnected smart systems.
+                The 4th International Conference on Recent Advances in Artificial Intelligence, Computer Vision & Smart Systems (ICRACS 2027) is a premier forum for presenting technological advances and research results in the fields of computational intelligence, machine vision, and interconnected smart systems.
               </p>
               <p>
                 Organized by the Department of Computer Science and Engineering at Poornima Institute of Engineering & Technology, the conference aims to bring together leading academic scientists, researchers, and research scholars to exchange and share their experiences and research results on all aspects of AI and Smart Systems.

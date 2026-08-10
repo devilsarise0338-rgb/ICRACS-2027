@@ -7,20 +7,20 @@ import { Calendar, CreditCard, Landmark, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const importantDates = [
-  { event: "Paper Submission Deadline", date: "January 15, 2026" },
-  { event: "Notification of Acceptance", date: "February 28, 2026" },
-  { event: "Camera-Ready Submission", date: "March 15, 2026" },
-  { event: "Early Bird Registration", date: "March 20, 2026" },
-  { event: "Registration with Late Fee", date: "April 05, 2026" },
-  { event: "Conference Dates", date: "April 17-18, 2026" },
+  { event: "Paper Submission Deadline", date: "April 30, 2027" },
+  { event: "Notification of Acceptance", date: "June 30, 2027" },
+  { event: "Camera-Ready Submission", date: "July 30, 2027" },
+  { event: "Early Bird Registration", date: "July 15, 2027" },
+  { event: "Registration with Late Fee", date: "August 20, 2027" },
+  { event: "Conference Dates", date: "August 27-28, 2027" },
 ];
 
 const fees = [
-  { category: "Indian Authors (Academia/R&D)", early: "₹ 6,000", late: "₹ 7,000" },
-  { category: "Indian Authors (Industry)", early: "₹ 7,000", late: "₹ 8,000" },
-  { category: "Indian Students (UG/PG/PhD)", early: "₹ 5,000", late: "₹ 6,000" },
-  { category: "International Authors", early: "$ 150", late: "$ 200" },
-  { category: "Attendees (Without Paper)", early: "₹ 2,000", late: "₹ 2,500" },
+  { category: "Student Author", early: "₹ 7,000", late: "₹ 8,000" },
+  { category: "Research Scholar", early: "₹ 9,000", late: "₹ 10,000" },
+  { category: "Faculty/Academic", early: "₹ 10,000", late: "₹ 11,000" },
+  { category: "Industry Professional", early: "₹ 11,000", late: "₹ 12,000" },
+  { category: "International Delegate", early: "$ 200", late: "$ 250" },
 ];
 
 export default function Registration() {
@@ -28,7 +28,7 @@ export default function Registration() {
     <>
       <PageHeader 
         title="Registration & Important Dates" 
-        description="Secure your spot at ICRACS 2026. Explore our registration categories, deadlines, and payment information."
+        description="Secure your spot at ICRACS 2027. Explore our registration categories, deadlines, and payment information."
         bgImage="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=2070&auto=format&fit=crop"
       />
 
@@ -106,23 +106,27 @@ export default function Registration() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-12">
                 <div>
                   <p className="text-sm text-slate-500 uppercase tracking-wider mb-1">Account Name</p>
-                  <p className="text-lg font-bold text-slate-900">PIET ICRACS</p>
+                  <p className="text-lg font-bold text-slate-900">POORNIMA INSTITUTE PART TWO</p>
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 uppercase tracking-wider mb-1">Account Number</p>
-                  <p className="text-lg font-bold text-slate-900 font-mono tracking-tight">3126 000 1234 5678</p>
+                  <p className="text-lg font-bold text-slate-900 font-mono tracking-tight">50200067728688</p>
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 uppercase tracking-wider mb-1">Bank Name</p>
-                  <p className="text-lg font-bold text-slate-900">HDFC Bank Ltd.</p>
+                  <p className="text-lg font-bold text-slate-900">HDFC BANK LTD.</p>
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 uppercase tracking-wider mb-1">IFSC Code</p>
-                  <p className="text-lg font-bold text-slate-900 font-mono">HDFC0003126</p>
+                  <p className="text-lg font-bold text-slate-900 font-mono">HDFC0003873</p>
                 </div>
                 <div className="md:col-span-2">
                   <p className="text-sm text-slate-500 uppercase tracking-wider mb-1">Branch</p>
-                  <p className="text-lg font-bold text-slate-900">Sitapura Industrial Area, Jaipur</p>
+                  <p className="text-lg font-bold text-slate-900">F-129 RIICO INDUSTRIAL AREA SITAPURA JAIPUR</p>
+                </div>
+                <div className="md:col-span-2 mt-4 pt-4 border-t border-slate-200">
+                  <p className="text-sm text-slate-500 uppercase tracking-wider mb-1">Important Note</p>
+                  <p className="text-slate-700">Any IEEE/ACM Member will be eligible for fee waive of Rs. 2000/25$ as applicable.</p>
                 </div>
               </div>
               

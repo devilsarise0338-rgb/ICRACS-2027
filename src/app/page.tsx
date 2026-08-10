@@ -91,13 +91,13 @@ export default function Home() {
       {/* About ICRACS */}
       <Section bg="white" id="about-icracs">
         <AnimatedHeading 
-          title="About ICRACS 2026" 
+          title="About ICRACS 2027" 
           subtitle="International Conference on Recent Advances in Artificial Intelligence, Computer Vision & Smart Systems"
         />
         
         <div className="max-w-4xl mx-auto mb-16">
           <p className="text-lg text-slate-600 leading-relaxed text-center">
-            ICRACS2026 focuses on the revolutionary applications of Artificial Intelligence, Computer Vision, and Smart Systems in emerging technologies. The conference serves as a premier platform for researchers, academicians, and industry professionals to share innovative AI solutions that enhance efficiency, stability, robustness, and security of smart systems through computational intelligence paradigms.
+            ICRACS2027 focuses on the revolutionary applications of Artificial Intelligence, Computer Vision, and Smart Systems in emerging technologies. The conference serves as a premier platform for researchers, academicians, and industry professionals to share innovative AI solutions that enhance efficiency, stability, robustness, and security of smart systems through computational intelligence paradigms.
           </p>
         </div>
 

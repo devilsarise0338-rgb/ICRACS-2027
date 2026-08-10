@@ -14,25 +14,27 @@ interface Session {
 }
 
 const day1: Session[] = [
-  { time: "08:30 AM - 09:30 AM", title: "Registration & Breakfast", location: "Main Reception", type: "Break" },
-  { time: "09:30 AM - 10:30 AM", title: "Inauguration Ceremony", location: "Arbuda Convention Centre", type: "Networking" },
-  { time: "10:30 AM - 11:30 AM", title: "Keynote Address: Future of Generative AI", location: "Arbuda Convention Centre", speaker: "Prof. Atulya K. Nagar", type: "Keynote" },
-  { time: "11:30 AM - 11:45 AM", title: "Tea Break", location: "Lounge Area", type: "Break" },
-  { time: "11:45 AM - 01:15 PM", title: "Technical Session 1: Neural Networks & Deep Learning", location: "Seminar Hall 1", type: "Technical" },
-  { time: "01:15 PM - 02:15 PM", title: "Lunch", location: "Dining Hall", type: "Break" },
-  { time: "02:15 PM - 03:15 PM", title: "Keynote Address: Edge Computing and IoT", location: "Arbuda Convention Centre", speaker: "Dr. Rajnish Sharma", type: "Keynote" },
-  { time: "03:15 PM - 05:00 PM", title: "Technical Session 2: Computer Vision", location: "Seminar Hall 2", type: "Technical" },
-  { time: "05:00 PM - 06:30 PM", title: "Panel Discussion: Ethics in AI", location: "Arbuda Convention Centre", type: "Panel" },
+  { time: "08:30 AM - 09:30 AM", title: "Registration & Welcome Coffee", location: "Registration", type: "Break" },
+  { time: "09:30 AM - 10:00 AM", title: "Opening Ceremony", location: "Ceremony", type: "Networking" },
+  { time: "10:00 AM - 11:00 AM", title: "Keynote: Dr. Brij Bhushan Gupta", location: "Keynote", speaker: "Dr. Brij Bhushan Gupta", type: "Keynote" },
+  { time: "11:00 AM - 11:15 AM", title: "Coffee Break", location: "Break", type: "Break" },
+  { time: "11:15 AM - 12:30 PM", title: "Track 1: Neural Networks & Deep Learning", location: "Technical", type: "Technical" },
+  { time: "12:30 PM - 01:30 PM", title: "Lunch Break", location: "Break", type: "Break" },
+  { time: "01:30 PM - 05:30 PM", title: "Workshop: Computational Intelligence for Sustainable Energy Systems", location: "Workshop", type: "Technical" },
+  { time: "05:30 PM - 06:00 PM", title: "Day 1 Networking Session", location: "Networking", type: "Networking" },
 ];
 
 const day2: Session[] = [
-  { time: "09:00 AM - 10:00 AM", title: "Keynote Address: Semantic Web and Agents", location: "Arbuda Convention Centre", speaker: "Dr. Marcin Paprzycki", type: "Keynote" },
-  { time: "10:00 AM - 11:30 AM", title: "Technical Session 3: Smart Systems", location: "Seminar Hall 1", type: "Technical" },
-  { time: "11:30 AM - 11:45 AM", title: "Tea Break", location: "Lounge Area", type: "Break" },
-  { time: "11:45 AM - 01:15 PM", title: "Special Session: Quantum Artificial Intelligence", location: "Seminar Hall 2", type: "Technical" },
-  { time: "01:15 PM - 02:15 PM", title: "Lunch", location: "Dining Hall", type: "Break" },
-  { time: "02:15 PM - 03:45 PM", title: "Technical Session 4: Computational Security", location: "Seminar Hall 1", type: "Technical" },
-  { time: "03:45 PM - 05:00 PM", title: "Valedictory Function & Award Ceremony", location: "Arbuda Convention Centre", type: "Networking" },
+  { time: "09:00 AM - 09:30 AM", title: "Registration & Morning Coffee", location: "Registration", type: "Break" },
+  { time: "09:30 AM - 10:30 AM", title: "Keynote: Dr. Dharm Singh", location: "Keynote", speaker: "Dr. Dharm Singh", type: "Keynote" },
+  { time: "10:30 AM - 10:45 AM", title: "Coffee Break", location: "Break", type: "Break" },
+  { time: "10:45 AM - 12:00 PM", title: "Track 2: Computer Vision & Pattern Recognition", location: "Technical", type: "Technical" },
+  { time: "12:00 PM - 01:00 PM", title: "Lunch Break", location: "Break", type: "Break" },
+  { time: "01:00 PM - 02:00 PM", title: "Panel Discussion: Neural Networks for Computer Vision", location: "Panel", type: "Panel" },
+  { time: "02:00 PM - 03:15 PM", title: "Track 3: Smart Systems & IoT Applications", location: "Technical", type: "Technical" },
+  { time: "03:15 PM - 03:30 PM", title: "Tea Break", location: "Break", type: "Break" },
+  { time: "03:30 PM - 04:30 PM", title: "Track 4: Computational Intelligence for Security", location: "Technical", type: "Technical" },
+  { time: "04:30 PM - 05:30 PM", title: "Award Ceremony & Closing", location: "Ceremony", type: "Networking" },
 ];
 
 function SessionCard({ session }: { session: Session }) {
@@ -98,10 +100,10 @@ export default function Agenda() {
           <Tabs defaultValue="day1" className="w-full">
             <TabsList className="grid w-full grid-cols-2 mb-8 bg-slate-200/50 p-1 rounded-xl">
               <TabsTrigger value="day1" className="rounded-lg py-3 text-base data-[state=active]:bg-white data-[state=active]:shadow-sm data-[state=active]:text-primary">
-                Day 1 - April 17
+                Day 1 - August 27
               </TabsTrigger>
               <TabsTrigger value="day2" className="rounded-lg py-3 text-base data-[state=active]:bg-white data-[state=active]:shadow-sm data-[state=active]:text-primary">
-                Day 2 - April 18
+                Day 2 - August 28
               </TabsTrigger>
             </TabsList>
             

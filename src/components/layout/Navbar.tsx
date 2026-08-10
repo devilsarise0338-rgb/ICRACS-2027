@@ -59,7 +59,7 @@ export function Navbar() {
           <Link
             href="/"
             className="flex items-center gap-3 shrink-0"
-            aria-label="ICRACS 2026 – Home"
+            aria-label="ICRACS 2027 – Home"
           >
             <div className="relative h-14 w-14 shrink-0">
               <Image
@@ -77,7 +77,7 @@ export function Navbar() {
                   scrolled || !isHomePage ? "text-blue-700" : "text-white drop-shadow"
                 }`}
               >
-                ICRACS 2026
+                ICRACS 2027
               </span>
               <span
                 className={`text-[10px] font-medium tracking-widest uppercase transition-colors ${

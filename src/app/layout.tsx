@@ -10,9 +10,9 @@ import { ScrollFeatures } from "@/components/layout/scroll-features";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "ICRACS 2026 - International Conference on Recent Advances in AI, Computer Vision & Smart Systems",
+  title: "ICRACS 2027 - International Conference on Recent Advances in AI, Computer Vision & Smart Systems",
   description:
-    "3rd International Conference on Recent Advances in Artificial Intelligence, Computer Vision & Smart Systems organized by Poornima Institute of Engineering & Technology, Jaipur on April 17-18, 2026",
+    "4th International Conference on Recent Advances in Artificial Intelligence, Computer Vision & Smart Systems organized by Poornima Institute of Engineering & Technology, Jaipur on August 27-28, 2027",
   keywords:
     "ICRACS, AI, Computer Vision, Smart Systems, Conference, PIET, Jaipur, Artificial Intelligence, Machine Learning",
 };

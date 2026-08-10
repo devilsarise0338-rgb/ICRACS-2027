@@ -1,5 +1,5 @@
 // ============================================================
-// ICRACS 2026 — Speakers Data
+// ICRACS 2027 — Speakers Data
 // Source: https://icracs.poornima.org/speakers
 // ============================================================
 
@@ -54,7 +54,7 @@ export interface SpeakingOpportunity {
 }
 
 // ============================================================
-// KEYNOTE SPEAKERS — ICRACS 2026
+// KEYNOTE SPEAKERS — ICRACS 2027
 // ============================================================
 
 export const keynoteSpeakers: KeynoteSpeaker[] = [
@@ -64,7 +64,7 @@ export const keynoteSpeakers: KeynoteSpeaker[] = [
     designation: "Pro Vice-Chancellor (Research)",
     institution: "Liverpool Hope University",
     country: "United Kingdom",
-    speakingDate: "April 17, 2026",
+    speakingDate: "August 27, 2027",
     expertiseTags: ["Computing", "Research Leadership", "Advanced Computing"],
     biography:
       "Prof. Atulya K. Nagar is the Pro Vice-Chancellor (Research) at Liverpool Hope University, providing strategic leadership for research and innovation across the institution. He is a distinguished academic with extensive experience in mathematical computing, bio-mathematics, and computational sciences. His research spans non-linear mathematics, computational biology, and natural computing paradigms, with numerous high-impact publications to his credit.",
@@ -78,7 +78,7 @@ export const keynoteSpeakers: KeynoteSpeaker[] = [
     designation: "Vice-Chancellor",
     institution: "Chitkara University Himachal Pradesh",
     country: "India",
-    speakingDate: "April 17, 2026",
+    speakingDate: "August 27, 2027",
     expertiseTags: ["Higher Education", "Technology", "Academic Leadership"],
     biography:
       "Dr. Rajnish Sharma is the Vice-Chancellor of Chitkara University Himachal Pradesh, driving academic excellence and research innovation in the Himalayan region. He brings decades of experience in higher education administration, academic policy, and technology-driven learning. Under his leadership, the university has achieved significant milestones in research output and industry collaborations.",
@@ -92,7 +92,7 @@ export const keynoteSpeakers: KeynoteSpeaker[] = [
     designation: "Associate Professor",
     institution: "Polish Academy of Sciences",
     country: "Poland",
-    speakingDate: "April 18, 2026",
+    speakingDate: "August 28, 2027",
     expertiseTags: ["Artificial Intelligence", "Multi-Agent Systems", "Computer Science"],
     biography:
       "Dr. Marcin Paprzycki is an Associate Professor at the Systems Research Institute of the Polish Academy of Sciences. He has extensive research contributions in artificial intelligence, distributed computing, and agent-based systems. He is widely recognized for his work on semantic web technologies, software agents, and parallel computing. He has authored numerous publications in leading international journals and conferences.",
@@ -106,7 +106,7 @@ export const keynoteSpeakers: KeynoteSpeaker[] = [
     designation: "Professor & Director",
     institution: "University of Johannesburg",
     country: "South Africa",
-    speakingDate: "April 17, 2026",
+    speakingDate: "August 27, 2027",
     expertiseTags: ["Electronics", "Photonics", "Communication Systems"],
     biography:
       "Prof. Ghanshyam Singh is a Professor and Director at the University of Johannesburg, South Africa, leading cutting-edge research in electronics and photonic systems. He has made seminal contributions to the fields of optical fiber communications, metamaterials, and photonic crystal fibers. His research work has been widely cited and he has collaborated with leading institutions worldwide.",
@@ -120,7 +120,7 @@ export const keynoteSpeakers: KeynoteSpeaker[] = [
     designation: "Professor",
     institution: "South Asian University",
     country: "India",
-    speakingDate: "April 18, 2026",
+    speakingDate: "August 28, 2027",
     expertiseTags: ["Swarm Intelligence", "Optimization", "Machine Learning"],
     biography:
       "Dr. Jagdish Chand Bansal is a Professor at South Asian University with pioneering contributions to swarm intelligence, nature-inspired computing, and optimization algorithms. He is widely recognized for developing novel bio-inspired algorithms and their applications in engineering and science. He has edited and authored several books on nature-inspired computing and has mentored numerous doctoral researchers in this field.",
@@ -134,7 +134,7 @@ export const keynoteSpeakers: KeynoteSpeaker[] = [
     designation: "Scientist-F",
     institution: "CSIR-Central Electronics Engineering Research Institute (CEERI), Pilani",
     country: "India",
-    speakingDate: "April 18, 2026",
+    speakingDate: "August 28, 2027",
     expertiseTags: ["VLSI Design", "Embedded Systems", "Electronic Circuits"],
     biography:
       "Dr. Jai Gopal Pandey is a Scientist-F at CSIR-CEERI Pilani, one of India's premier research institutions in the field of electronics. He specializes in VLSI design, embedded systems, and advanced electronic circuit research. His work encompasses low-power circuit design, hardware security, and reconfigurable computing, with significant contributions to national research programmes.",
@@ -148,7 +148,7 @@ export const keynoteSpeakers: KeynoteSpeaker[] = [
     designation: "Scientist-F",
     institution: "CSIR-Central Electronics Engineering Research Institute (CEERI), Pilani",
     country: "India",
-    speakingDate: "April 18, 2026",
+    speakingDate: "August 28, 2027",
     expertiseTags: ["Micro-electronics", "Sensors", "MEMS"],
     biography:
       "M. Santosh Kumar is a Scientist-F at CSIR-CEERI Pilani, contributing to cutting-edge research in micro-electronics, sensors, and MEMS (Micro-Electro-Mechanical Systems) technology. His work focuses on the development of advanced sensor technologies and miniaturized electronic systems with applications in healthcare, defence, and industrial monitoring systems.",
@@ -162,7 +162,7 @@ export const keynoteSpeakers: KeynoteSpeaker[] = [
     designation: "Assistant Professor",
     institution: "Visvesvaraya Technological University, Bengaluru Region",
     country: "India",
-    speakingDate: "April 18, 2026",
+    speakingDate: "August 28, 2027",
     expertiseTags: ["Signal Processing", "Communication", "VLSI"],
     biography:
       "Dr. Ashwin C Gowda is an Assistant Professor at Visvesvaraya Technological University, Bengaluru Region, with active research in signal processing and communication systems. His research contributions include work on wireless communications, digital signal processing, and VLSI-based implementation of communication algorithms. He has published extensively in reputed international journals and conferences.",
@@ -332,7 +332,7 @@ export const topicsCoverage: TopicCoverage[] = [
 export const speakingOpportunities: SpeakingOpportunity = {
   heading: "Speaking Opportunities",
   description:
-    "ICRACS 2026 welcomes distinguished researchers and industry experts to share their insights and contribute to advancing the frontiers of Artificial Intelligence, Computer Vision, and Smart Systems. If you are a leading researcher or practitioner in these domains and wish to deliver a keynote or invited talk, we encourage you to reach out to the organizing committee. Our conference brings together academia, research institutions, and industry professionals, providing an exceptional platform to present groundbreaking work and engage with a highly motivated audience from across the globe.",
+    "ICRACS 2027 welcomes distinguished researchers and industry experts to share their insights and contribute to advancing the frontiers of Artificial Intelligence, Computer Vision, and Smart Systems. If you are a leading researcher or practitioner in these domains and wish to deliver a keynote or invited talk, we encourage you to reach out to the organizing committee. Our conference brings together academia, research institutions, and industry professionals, providing an exceptional platform to present groundbreaking work and engage with a highly motivated audience from across the globe.",
   contactEmail: "icracs@poornima.org",
-  contactSubject: "Speaking Opportunity Inquiry — ICRACS 2026",
+  contactSubject: "Speaking Opportunity Inquiry — ICRACS 2027",
 };

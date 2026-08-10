@@ -7,7 +7,7 @@ export default function Loading() {
         <div className="absolute inset-0 bg-primary/10 animate-pulse" />
         <Loader2 className="w-8 h-8 text-primary animate-spin relative z-10" />
       </div>
-      <h2 className="text-xl font-semibold text-slate-800 animate-pulse">Loading ICRACS 2026...</h2>
+      <h2 className="text-xl font-semibold text-slate-800 animate-pulse">Loading ICRACS 2027...</h2>
     </div>
   );
 }

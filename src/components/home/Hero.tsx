@@ -47,7 +47,7 @@ export function Hero() {
             className="mb-6"
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-tight text-white">
-              <span className="text-primary font-extrabold tracking-tight">ICRACS</span> 2026
+              <span className="text-primary font-extrabold tracking-tight">ICRACS</span> 2027
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium mb-4 text-slate-200">
               International Conference on Recent Advances in
@@ -69,7 +69,7 @@ export function Hero() {
             </div>
             <div className="flex items-center gap-3 text-slate-300 text-lg">
               <Calendar className="h-6 w-6 text-primary" />
-              <span>April 17-18, 2026</span>
+              <span>August 27-28, 2027</span>
             </div>
             <div className="flex items-center gap-3 text-slate-300 text-lg">
               <span className="flex h-2 w-2 rounded-full bg-green-500 ml-2" />

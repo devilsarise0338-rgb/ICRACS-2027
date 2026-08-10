@@ -7,29 +7,29 @@ import Link from "next/link";
 
 const archives = [
   {
-    year: "2024",
+    year: "2025",
     edition: "2nd",
-    date: "April 18-19, 2024",
+    date: "2025",
     location: "PIET, Jaipur",
-    proceedings: "AIP Conference Proceedings (Forthcoming)",
+    proceedings: "Various Publications",
     stats: {
-      submissions: 450,
-      accepted: 110,
-      acceptanceRate: "24.4%"
+      submissions: "285+",
+      accepted: "53+",
+      acceptanceRate: "18.5%"
     },
     image: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?q=80&w=2070&auto=format&fit=crop"
   },
   {
-    year: "2023",
+    year: "2024",
     edition: "1st",
-    date: "April 13-14, 2023",
+    date: "April 24-25, 2024",
     location: "PIET, Jaipur",
-    proceedings: "AIP Conference Proceedings (Vol 2899)",
+    proceedings: "CRC Press (Scopus) & IJTE (UGC Index)",
     proceedingsLink: "#",
     stats: {
-      submissions: 380,
-      accepted: 95,
-      acceptanceRate: "25%"
+      submissions: "190+",
+      accepted: "50+",
+      acceptanceRate: "26.3%"
     },
     image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop"
   }

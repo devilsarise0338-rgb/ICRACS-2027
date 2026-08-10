@@ -11,37 +11,37 @@ const tracks = [
     id: 1,
     title: "Neural Networks and Deep Learning",
     icon: Brain,
-    topics: ["Deep learning architectures", "Neural network optimization", "Convolutional and recurrent networks", "Transformers and attention mechanisms", "Generative models"]
+    topics: ["Deep learning architectures", "Neural network optimization", "Convolutional and recurrent networks", "Transformers and attention mechanisms", "Generative models", "Advanced training techniques for intelligent systems"]
   },
   {
     id: 2,
     title: "Computer Vision and Pattern Recognition",
     icon: Eye,
-    topics: ["Object detection and recognition", "Image processing", "Video analysis", "Medical imaging", "Biometric systems", "3D vision"]
+    topics: ["Object detection and recognition", "Image processing and analysis", "Video analysis and understanding", "Medical imaging applications", "Biometric systems", "3D vision and visual perception applications"]
   },
   {
     id: 3,
     title: "Smart Systems and IoT Applications",
     icon: Cpu,
-    topics: ["Intelligent IoT systems", "Smart city infrastructure", "Industrial automation", "Energy management", "Cyber-physical systems"]
+    topics: ["Intelligent IoT systems", "Smart city infrastructure", "Industrial automation", "Energy management systems", "Healthcare applications", "Computational intelligence in cyber-physical systems"]
   },
   {
     id: 4,
-    title: "Computational Intelligence for Security",
+    title: "Computational Intelligence for Security and Privacy",
     icon: Shield,
-    topics: ["AI-driven cybersecurity", "Privacy-preserving machine learning", "Adversarial systems", "Intelligent threat detection", "Blockchain and AI"]
+    topics: ["AI-driven cybersecurity", "Privacy-preserving machine learning", "Adversarial systems and defenses", "Blockchain integration with AI", "Biometric security systems", "Intelligent threat detection mechanisms"]
   },
   {
     id: 5,
-    title: "Reinforcement Learning and Control",
+    title: "Reinforcement Learning and Intelligent Control",
     icon: Bot,
-    topics: ["Autonomous systems", "Robotics control", "Multi-agent systems", "Decision making algorithms", "Game theory applications"]
+    topics: ["Reinforcement learning algorithms", "Multi-agent systems", "Intelligent control strategies", "Robotics applications", "Game-theoretic learning", "Adaptive control in smart environments"]
   },
   {
     id: 6,
-    title: "Emerging Technologies",
+    title: "Emerging Technologies and Applications",
     icon: Sparkles,
-    topics: ["Quantum machine learning", "Neuromorphic computing", "Edge AI", "Explainable AI", "Brain-computer interfaces"]
+    topics: ["Quantum machine learning", "Neuromorphic computing", "Edge AI and distributed intelligence", "Explainable AI and interpretability", "AI ethics and responsible AI", "Brain-computer interfaces"]
   }
 ];
 
@@ -50,7 +50,7 @@ export default function CallForPapers() {
     <>
       <PageHeader 
         title="Call for Papers" 
-        description="Submit your original research and be part of ICRACS 2026. Explore our diverse tracks covering the latest in AI, Computer Vision, and Smart Systems."
+        description="Submit your original research and be part of ICRACS 2027. Explore our diverse tracks covering the latest in AI, Computer Vision, and Smart Systems."
       />
 
       <Section bg="slate">
@@ -88,14 +88,14 @@ export default function CallForPapers() {
             <AnimatedHeading title="Submission Guidelines" centered={false} className="mb-8" />
             <div className="prose prose-slate max-w-none">
               <p className="text-slate-600 text-lg mb-6">
-                Authors are invited to submit full papers (maximum 6 pages) in English, strictly following the AIP conference proceedings template.
+                Authors are invited to submit full papers (maximum 8 pages) in English, strictly following the AIP conference proceedings template.
               </p>
               
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="text-slate-800 font-semibold hover:text-primary">Paper Format (AIP Standards)</AccordionTrigger>
                   <AccordionContent className="text-slate-600 leading-relaxed">
-                    All papers must be formatted according to the standard AIP dual-column format. The maximum page limit is 6 pages, including all figures, tables, and references. Extra pages may incur additional charges.
+                    All papers must be formatted according to the standard AIP dual-column format. The maximum page limit is 8 pages, including all figures, tables, and references. Extra pages may incur additional charges.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
@@ -138,7 +138,7 @@ export default function CallForPapers() {
                 <h4 className="font-semibold text-slate-900 mb-4">Acceptance Metrics</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white p-3 rounded-lg border border-blue-100 text-center">
-                    <div className="text-2xl font-bold text-primary">24%</div>
+                    <div className="text-2xl font-bold text-primary">16-18%</div>
                     <div className="text-xs text-slate-500 uppercase tracking-wider font-semibold">Acceptance Rate</div>
                   </div>
                   <div className="bg-white p-3 rounded-lg border border-blue-100 text-center">

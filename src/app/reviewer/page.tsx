@@ -54,7 +54,7 @@ export default function Reviewer() {
     <>
       <PageHeader 
         title="Join as a Reviewer" 
-        description="Contribute to the academic community by joining our esteemed panel of reviewers for ICRACS 2026."
+        description="Contribute to the academic community by joining our esteemed panel of reviewers for ICRACS 2027."
         bgImage="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop"
       />
 

@@ -10,7 +10,7 @@ export default function Contact() {
     <>
       <PageHeader 
         title="Contact Us" 
-        description="Have questions about ICRACS 2026? Reach out to our organizing team."
+        description="Have questions about ICRACS 2027? Reach out to our organizing team."
         bgImage="https://images.unsplash.com/photo-1516387938699-a93567ec168e?q=80&w=2071&auto=format&fit=crop"
       />
 

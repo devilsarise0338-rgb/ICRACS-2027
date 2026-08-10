@@ -9,7 +9,7 @@ export default function Venue() {
     <>
       <PageHeader 
         title="Conference Venue" 
-        description="Experience the vibrant culture and heritage of Jaipur while attending ICRACS 2026."
+        description="Experience the vibrant culture and heritage of Jaipur while attending ICRACS 2027."
         bgImage="https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=2070&auto=format&fit=crop"
       />
 
