@@ -74,15 +74,15 @@ export default function Speakers() {
   return (
     <>
       <PageHeader
-        title="Keynote Speakers"
+        title="Upcoming Speakers"
         description="Distinguished experts sharing their insights at ICRACS 2026 — leading researchers and industry pioneers at the forefront of AI, Computer Vision & Smart Systems."
         bgImage="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop"
       />
 
-      {/* ── Keynote Speakers ── */}
+      {/* ── Upcoming Speakers ── */}
       <Section bg="slate">
         <AnimatedHeading
-          title="Keynote Speakers"
+          title="Upcoming Speakers"
           subtitle="Click any card to view the full speaker profile"
         />
 
@@ -124,18 +124,18 @@ export default function Speakers() {
         <div className="max-w-6xl mx-auto">
           <AnimatedHeading
             title="Speaker Information"
-            subtitle="Everything you need to know about keynote sessions at ICRACS 2026"
+            subtitle="Everything you need to know about upcoming sessions at ICRACS 2026"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Keynote Sessions */}
+            {/* Upcoming Sessions */}
             <Card className="glass-card border-slate-100 shadow-sm col-span-1">
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center">
                     <Mic2 className="h-5 w-5 text-primary" />
                   </div>
-                  <h3 className="text-lg font-bold text-slate-900">Keynote Sessions</h3>
+                  <h3 className="text-lg font-bold text-slate-900">Upcoming Sessions</h3>
                 </div>
                 <ul className="space-y-3">
                   {[

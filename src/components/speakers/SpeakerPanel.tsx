@@ -328,7 +328,7 @@ export function SpeakerPanel({ speaker, onClose }: SpeakerPanelProps) {
                     }}
                   >
                     <Mic2 className="h-3 w-3" />
-                    {speaker.type === "keynote" ? "Keynote Speaker" : `${conferenceEdition}`}
+                    {speaker.type === "keynote" ? "Upcoming Speaker" : `${conferenceEdition}`}
                   </span>
 
                   <h2

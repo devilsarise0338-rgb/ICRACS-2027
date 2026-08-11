@@ -55,7 +55,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/speakers" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <ExternalLink className="h-3 w-3" /> Keynote Speakers
+                  <ExternalLink className="h-3 w-3" /> Upcoming Speakers
                 </Link>
               </li>
             </ul>

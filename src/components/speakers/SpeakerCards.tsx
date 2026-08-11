@@ -342,7 +342,7 @@ export function KeynoteSpeakerCard({
               <Mic2 className="h-3.5 w-3.5" style={{ color: accent }} />
             </div>
             <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-              Keynote Speaker
+              Upcoming Speaker
             </span>
           </div>
           <div className="flex items-center gap-1.5">

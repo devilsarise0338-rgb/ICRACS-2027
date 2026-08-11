@@ -54,7 +54,7 @@ export interface SpeakingOpportunity {
 }
 
 // ============================================================
-// KEYNOTE SPEAKERS — ICRACS 2026
+// UPCOMING SPEAKERS — ICRACS 2026
 // ============================================================
 
 export const keynoteSpeakers: KeynoteSpeaker[] = [];
